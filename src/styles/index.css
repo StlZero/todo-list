@@ -8,7 +8,7 @@
 
 #content {
     display: grid;
-    grid-template-columns: 30vw 65vw;
+    grid-template-columns: 20vw 75vw;
     grid-template-rows: 20vh 70vh;
     grid-template-areas: 
     "header header"
@@ -35,4 +35,18 @@
 
 .list-contents {
     grid-area: list-contents;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.todo-2 {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
 }
