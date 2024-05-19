@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: 'Roboto', sans-serif;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 30vw 65vw;
+    grid-template-rows: 20vh 70vh;
+    grid-template-areas: 
+    "header header"
+    "lists list-contents";
+
+    margin: 25px;
+}
+
+
+/*  */
+
+.header, .lists, .list-contents {
+    border: 2px black solid;
+    padding: 25px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.lists {
+    grid-area: lists;
+}
+
+.list-contents {
+    grid-area: list-contents;
+}
