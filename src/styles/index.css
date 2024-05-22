@@ -57,7 +57,8 @@ p {
 
 .list-contents {
     grid-area: list-contents;
-    overflow: auto;
+    overflow: scroll;
+    overflow-x: auto;
 }
 
 .todo {
@@ -72,4 +73,24 @@ p {
     width: 250px;
     display: flex;
     justify-content: space-around;
+}
+
+.todoDialog {
+    width: 60vw;
+    height: 60vh;
+
+    margin: auto;
+    padding: 20px;
+}
+
+.todoDialog div {
+    margin-bottom: 20px;
+}
+
+.rand-dialog {
+    width: 50vw;
+    height: 50vh;
+
+    margin: auto;
+    padding: 20px;
 }
