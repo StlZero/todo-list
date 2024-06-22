@@ -82,13 +82,6 @@ function createDialog() {
     `;
     content.appendChild(dialog);
 
-    // 
-    // const title_input = document.getElementById('title');
-    // const description_input = document.getElementById('description');
-    // const due_date_input = document.getElementById('dueDate');
-
-    // 
-
     createButton.addEventListener('click', (e) => {
         dialog.showModal();
     });

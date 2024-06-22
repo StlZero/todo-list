@@ -94,3 +94,7 @@ p {
     margin: auto;
     padding: 20px;
 }
+
+.rand-dialog p {
+    margin-bottom: 20px;
+}
